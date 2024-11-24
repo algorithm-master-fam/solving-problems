@@ -1,4 +1,3 @@
-# import heapq
 from collections import deque
 
 N, M, V = map(int, input().split())
