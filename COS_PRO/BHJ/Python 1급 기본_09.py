@@ -1,6 +1,24 @@
-# 풀이 중
 def solution(N, info, game):
     result = 0
+    N = info[0][0]
+    rival = info[1]
+
+    # @TODO : 시간복잡도 줄이기
+    for i in range(N):
+        for j in range(len(game)):
+            if rival[i] in game[j]:
+                for k in range(len(game[j])):
+                    if game[j][k] not in rival:
+                        rival.append(game[j][k])
+    
+    maxV = len(game)
+    for g in game:
+        for r in rival:
+            if r in g:
+                maxV -= 1
+                break
+
+    result = maxV
     return result
 
 
