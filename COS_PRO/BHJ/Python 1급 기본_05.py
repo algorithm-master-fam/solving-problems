@@ -1,4 +1,3 @@
-# 풀이 중
 def func_a(arr):
     answer = -1
     for i in range(len(arr)):
@@ -26,7 +25,7 @@ def func_c(arr, count):
         if answer == -1:
             answer = idx
         elif arr[answer] < elem:
-            answer += 1
+            answer = idx ####
     return answer
 
 
