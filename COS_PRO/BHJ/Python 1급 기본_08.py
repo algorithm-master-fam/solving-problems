@@ -1,10 +1,29 @@
-# 풀이 중
 # 다음과 같이 import를 사용할 수 있습니다.
 # import math
 
 def solution(numberA, numberB, limit):
     # 여기에 코드를 작성해주세요.
     answer = [0] * 1001
+
+    # numberA
+    cur = numberA
+    while cur <= limit and answer[cur] != 1:
+        answer[cur] = 1
+        cur += numberA
+    
+    # numberB
+    cur = numberB
+    while cur <= limit and answer[cur] != 1:
+        answer[cur] = 1
+        cur += numberB
+    
+    # numberA + numberB
+    for a in range(limit // numberA + 1):
+        for b in range(limit // numberB + 1):
+            _sum = a * numberA + b * numberB
+            if 0 < _sum <= limit and answer[_sum] != 1:
+                answer[_sum] = 1
+    
     return sum(answer[1:])
 
 # 아래는 테스트케이스 출력을 해보기 위한 코드입니다. 
