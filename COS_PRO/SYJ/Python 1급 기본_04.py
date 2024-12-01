@@ -1,21 +1,21 @@
 # import math
 
 def maxNumber(value):
-    digits = list(str(value))
-    digits.sort(reverse = True)
-    return int(''.join(digits))
+    digits = list(str(value)) # answer
+    digits.sort(reverse = True) # answer
+    return int(''.join(digits)) # answer
 
 def minNumber(value):
-    digits = list(str(value))
-    digits.sort()
-    return int(''.join(digits))
+    digits = list(str(value)) # answer
+    digits.sort() # answer
+    return int(''.join(digits)) # answer
 
 def solution(num):
     answer = 0;
     maxNum = maxNumber(num)
     minNum = minNumber(num)
 
-    answer = maxNum - minNum
+    answer = maxNum - minNum # answer
     return answer
 
 # 아래는 테스트케이스 출력을 해보기 위한 코드입니다.

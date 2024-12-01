@@ -10,7 +10,7 @@ def func1(number, arr1, arr2):
 def func2(arr):
     answer = 0
     for value in arr:
-        if value:
+        if value: # answer
             answer += 1
     return answer
 

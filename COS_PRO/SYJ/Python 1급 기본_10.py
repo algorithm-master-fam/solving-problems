@@ -1,6 +1,6 @@
 def solution(household):
     answer = []
-    household.sort(key = lambda x : (-x[1],-x[2], -x[3], x[0])); # 자녀 유무 기준 정렬 
+    household.sort(key = lambda x : (-x[1],-x[2], -x[3], x[0])); 
     for i in household:
         answer.append(i[0])
     return answer

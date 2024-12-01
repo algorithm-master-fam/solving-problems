@@ -2,7 +2,7 @@ def func_a(arr):
     ret = []
     for a in arr:
         a.sort()
-        ret.append(a[1:len(a)-1])
+        ret.append(a[1:len(a)-1]) # answer
     return ret
 
 def func_b(arr):
@@ -11,15 +11,15 @@ def func_b(arr):
         sum = 0
         for b in a:
             sum += b
-        sum = [sum // len(a)]
+        sum = sum // len(a) # answer
         ret.append(sum)
     ret.sort(reverse=True)
     return ret[0]
 
 
 def solution(scores):
-    arr = func_a(scores)
-    answer = func_b(arr)
+    arr = func_a(scores) # answer
+    answer = func_b(arr) # answer
     return answer
 
 # 아래는 테스트케이스 출력을 해보기 위한 코드입니다.

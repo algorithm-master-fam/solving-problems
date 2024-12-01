@@ -6,11 +6,11 @@ def solution(money, cost, name):
 
     i = 0
     while i < len(cost):
-        oil = math.trunc(money / cost[i][1])
-        distance = oil * cost[i][0]
-        if distance > max_distance:
+        oil = math.trunc(money / cost[i][1]) # answer
+        distance = oil * cost[i][0] # answer
+        if distance > max_distance: # answer
             max_distance = distance
-            answer = name[i]
+            answer = name[i] # answer
         i += 1
     return answer
 

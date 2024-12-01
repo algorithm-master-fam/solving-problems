@@ -1,8 +1,8 @@
 def solution(projects):
-    projects.sort(key=lambda x: x[0])
-    projects.sort(key=lambda x: x[2], reverse=True)
-    projects.sort(key=lambda x: x[1], reverse=True)
-    answer = [i[0] for i in projects]
+    projects.sort(key=lambda x: x[0], reverse=False) # answer
+    projects.sort(key=lambda x: x[2], reverse=True) # answer
+    projects.sort(key=lambda x: x[1], reverse=True) # answer
+    answer = [i[0] for i in projects] # answer
     return answer
 
 # 아래는 테스트케이스 출력을 해보기 위한 코드입니다.

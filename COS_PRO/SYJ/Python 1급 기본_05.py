@@ -23,9 +23,9 @@ def func_c(arr, count):
         if elem == count:
             continue
         if answer == -1:
-            answer = idx # answer
-        elif arr[answer] < elem:
             answer = idx
+        elif arr[answer] < elem:
+            answer = idx # answer
     return answer
 
 
