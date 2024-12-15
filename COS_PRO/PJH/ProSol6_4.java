@@ -1,6 +1,6 @@
 package COS_PRO.PJH;
 
-public class ProSol4 {
+public class ProSol6_4 {
     class Job {
         public int salary;
 
@@ -68,7 +68,7 @@ public class ProSol4 {
 
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다.
     public static void main(String[] args) {
-        ProSol4 sol = new ProSol4();
+        ProSol6_4 sol = new ProSol6_4();
         int[][] partTimeJobs = {{10, 5000}, {43, 6800}, {5, 12800}};
         int[][] salesJobs = {{3, 18000}, {12, 8500}};
         int ret = sol.solution(partTimeJobs, salesJobs);

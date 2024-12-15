@@ -1,6 +1,6 @@
 package COS_PRO.PJH;
 
-public class ProSol7 {
+public class ProSol6_7 {
     public int solution(int n, int mix, int k) {
         int answer = 0;
 
@@ -34,7 +34,7 @@ public class ProSol7 {
 
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다. 아래에는 잘못된 부분이 없으니 위의 코드만 수정하세요.
     public static void main(String[] args) {
-        ProSol7 sol = new ProSol7();
+        ProSol6_7 sol = new ProSol6_7();
         int n = 6;
         int mix = 3;
         int k = 3;

@@ -1,7 +1,7 @@
 package COS_PRO.PJH;
 import java.util.*;
 
-public class ProSol1 {
+public class ProSol6_1 {
     Integer func_a(ArrayList<Integer> stack) {
         Integer item = stack.remove(stack.size() - 1);
         return item;
@@ -28,7 +28,7 @@ public class ProSol1 {
 
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다.
     public static void main(String[] args) {
-        ProSol1 sol = new ProSol1();
+        ProSol6_1 sol = new ProSol6_1();
 
         ArrayList<Integer> stack1_1 = new ArrayList<Integer>();
         ArrayList<Integer> stack2_1 = new ArrayList<Integer>();

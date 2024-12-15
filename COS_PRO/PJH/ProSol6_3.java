@@ -1,6 +1,6 @@
 package COS_PRO.PJH;
 
-public class ProSol3 {
+public class ProSol6_3 {
     public int solution(int K, int[] numbers, String[] UpDown) {
         int left = 1;
         int right = K;
@@ -18,7 +18,7 @@ public class ProSol3 {
 
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다.
     public static void main(String[] args) {
-        ProSol3 sol = new ProSol3();
+        ProSol6_3 sol = new ProSol6_3();
         int K1 = 10;
         int[] numbers1 = {4, 9, 6};
         String[] UpDown1 = {new String("UP"), new String("DOWN"), new String("UP")};

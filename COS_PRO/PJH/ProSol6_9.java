@@ -2,7 +2,7 @@ package COS_PRO.PJH;
 
 import java.util.*;
 
-public class ProSol9 {
+public class ProSol6_9 {
     public int solution(int[] arr, int K) {
         // 선 정렬 -> 연속된 K개의 숫자들이 가장 작은 차이를 가질 수 있도록
         Arrays.sort(arr);
@@ -21,7 +21,7 @@ public class ProSol9 {
 
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다.
     public static void main(String[] args) {
-        ProSol9 sol = new ProSol9();
+        ProSol6_9 sol = new ProSol6_9();
         int[] arr = {9, 11, 9, 6, 4, 19};
         int K = 4;
         int ret = sol.solution(arr, K);

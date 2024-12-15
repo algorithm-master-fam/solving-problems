@@ -1,6 +1,6 @@
 package COS_PRO.PJH;
 
-public class ProSol2 {
+public class ProSol6_2 {
     final int INC = 0;
     final int DEC = 1;
     int[] func_a(int[] arr) {
@@ -48,7 +48,7 @@ public class ProSol2 {
 
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다.
     public static void main(String[] args) {
-        ProSol2 sol = new ProSol2();
+        ProSol6_2 sol = new ProSol6_2();
         int[] S1 = {2, 5, 7, 3, 4, 6, 1, 8, 9};
         int ret1 = sol.solution(S1);
 
