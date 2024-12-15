@@ -1,6 +1,6 @@
 package COS_PRO.PJH;
 
-public class ProSol6 {
+public class ProSol6_6 {
     public int solution(int[][] board) {
         int answer = 0;
 
@@ -24,7 +24,7 @@ public class ProSol6 {
 
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다. 아래에는 잘못된 부분이 없으니 위의 코드만 수정하세요.
     public static void main(String[] args) {
-        ProSol6 sol = new ProSol6();
+        ProSol6_6 sol = new ProSol6_6();
         int[][] board = {{6, 7, 1, 2}, {3, 5, 3, 9}, {6, 4, 5, 2}, {7, 3, 2, 6}};
         int ret = sol.solution(board);
 

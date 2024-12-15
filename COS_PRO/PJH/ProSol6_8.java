@@ -2,7 +2,7 @@ package COS_PRO.PJH;
 
 import java.util.*;
 
-public class ProSol8 {
+public class ProSol6_8 {
     public int solution(int[][] garden) {
         int n = garden.length;
         int m = garden[0].length;
@@ -52,7 +52,7 @@ public class ProSol8 {
 
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다.
     public static void main(String[] args) {
-        ProSol8 sol = new ProSol8();
+        ProSol6_8 sol = new ProSol6_8();
         int[][] garden1 = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
         int ret1 = sol.solution(garden1);
 

@@ -1,6 +1,6 @@
 package COS_PRO.PJH;
 
-public class ProSol5 {
+public class ProSol6_5 {
     public int solution(int[][] grid) {
         int answer = 0;
         for(int i = 0; i < 4; i++)
@@ -12,7 +12,7 @@ public class ProSol5 {
 
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다. 아래에는 잘못된 부분이 없으니 위의 코드만 수정하세요.
     public static void main(String[] args) {
-        ProSol5 sol = new ProSol5();
+        ProSol6_5 sol = new ProSol6_5();
         int[][] grid = {{1, 4, 16, 1}, {20, 5, 15, 8}, {6, 13, 36, 14}, {20, 7, 19, 15}};
         int ret = sol.solution(grid);
 
